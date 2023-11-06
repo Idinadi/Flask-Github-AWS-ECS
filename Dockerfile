@@ -14,6 +14,6 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
-CMD python /app/model.py && python /app/server.py
+CMD python /app/server.py
 
  

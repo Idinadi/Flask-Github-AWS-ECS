@@ -2,9 +2,6 @@ FROM ubuntu:16.04
 
 FROM python:3.6.5
 
-RUN apt-get update -y && \
-    apt-get install -y python-pip python-dev
-
 ENV FLASK_ENV=production
 
 # set argument vars in docker-run command
